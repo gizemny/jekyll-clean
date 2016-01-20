@@ -9,3 +9,15 @@ Example
 Remember, the names of your partial files in the _sass/ directory will have an underscore eg. "_about.scss", but when you import them, they do not.
 */
 
+@import
+  "index"
+
+.footer-push {
+  height: auto;
+}
+
+
+#footer {
+  /* Placeholder footer styles */
+  text-align: center;
+}
